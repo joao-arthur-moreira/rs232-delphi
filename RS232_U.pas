@@ -242,7 +242,7 @@ var cStr: String;
 begin
   if not bAberta then
   begin
-    ShowMessage('PORTA SERIAL ESTA FECHADA !');
+    ShowMessage('PORTA SERIAL ESTA FECHADA!');
     exit;
   end;
   cStr:=ReadComm;
